@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>cal.html</title>
+</head>
+<body>
+	<!-- 사용자가 A, B값을 입력한 후 한가지 연산식을 선택하여 버튼을 누르면 그 결과를 브라우저에 출력 -->
+	<h1>간단한 계산기</h1>
+	<form action="cal.do">
+		A값 : <input type="text" name="num1" id="" /> <br />
+		B값 : <input type="text" name="num2" id="" /> <br />
+		<br />
+		<!-- (input:r[name='oper'][value=''])*4 -->
+		<input type="radio" name="oper" id="" value="+" />+
+		<input type="radio" name="oper" id="" value="-" />-
+		<input type="radio" name="oper" id="" value="*" />*
+		<input type="radio" name="oper" id="" value="/" />/
+		
+		<br />
+		<br />
+		<input type="submit" value="계산" />
+		
+	</form>
+
+</body>
+</html>

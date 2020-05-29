@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<students>		<!-- root element(최상위 요소) -->
+	<student sid="s100">
+		<name>홍길동</name>
+		<age>20</age>
+	</student>
+
+</students>
+
+<?xml-stylesheet type="text/css" href="../css/students.css"?>
